@@ -1,7 +1,27 @@
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
 nav a {
     color: rgb(10, 10, 10);
     text-decoration: none;
     margin: 0 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
+.principal{
+  display: flex;
+  flex-direction: column;
+  background-image: url("./imagens/5172658.jpg");
+}
+.principal a{
+  color: #ffffff;
 }
 
 html{
