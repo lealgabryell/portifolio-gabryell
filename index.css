@@ -3,7 +3,6 @@
   padding: 0;
 }
 nav {
-  position: sticky;
   top: 0;
   left: 0;
   width: 100%;
@@ -24,13 +23,11 @@ nav a {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2rem;
 }
-header {
+body {
   background-image: url("./imagens/5172658.jpg");
   background-size: 100%;
 }
-.principal a {
-  color: black;
-}
+
 
 #inicio {
   padding-top: 5rem;
@@ -47,6 +44,34 @@ header {
   padding-top: 1rem;
   display: flex;
   width: 25rem;
+}
+
+#sobre a {
+  /*edita a distancia de todo o conjunto do item anterior*/
+  margin-left: 2rem;
+  /*edita a distancia apenas do texto dentro da shadow box*/
+  padding-left: 1rem;
+  padding-top: 1.2rem;
+  padding-right: 4.5rem;
+  text-align: justify;
+  width: 40rem;
+  box-shadow: #402eff -5px 5px, #2dbefc -10px 10px, #4fccf4 -15px 15px,#a1d6e7 -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  color: rgb(255, 255, 255);
+  border-radius: 2rem;
+}
+#sobre {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+#sobre img {
+  padding-left: 5%;
+  width: 16rem;
+}
+#area{
+  text-align: center;
+  padding-top: 5rem;
 }
 
 html {
