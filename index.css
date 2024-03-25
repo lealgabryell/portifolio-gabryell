@@ -222,7 +222,7 @@ span {
   transition: 0.2s ease;
 }
 .footer .social a:hover {
-  transform: scale(1.2) translateY(-10px);
+  transform: scale(1.2);
   border: 2px solid transparent;
 }
 .footer .social img {
