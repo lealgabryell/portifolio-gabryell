@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./style.css" />
+  <link rel="stylesheet" type="text/css" href="./global.css" />
   <link rel="shortcut icon" type="imagex/png" href="./imagens/LOGO - G.png">
   <title>Bem-vindo!</title>
 </head>
@@ -14,9 +15,9 @@
     <nav class="navbar">
       <a href="#home"><img src="./imagens/LOGO nome-GLR.png"></a>
       <a href="#about">About me</a>
+      <a href="#experience">Experience</a>
       <a href="#education">Education</a>
-      <a href="#experiece">Experience</a>
-      <a href="#contact" class="contato">Contact Me</a>
+      <a href="#contact">Contact Me</a>
     </nav>
   </header>
   <section id="home" class="home">
@@ -27,8 +28,8 @@
 
       <p>Born in February 25th, 2002, I'm a english fluent (tested by the Versant Exam) developer and analyst.<br> On my second year of University, I'm majoring in Computer Information Systems at UNIFACISA, located in Campina Grande - PB, Brazil.</p>
       <div class="btn-box">
-        <button class="btn-1">Hire Me!</button>
-        <button class="btn-2">Experience</button>
+        <a href="#contact" class="btn-1">Hire me!</a>
+        <a href="#experience" class="btn-2">Experience</a>
       </div>
     </div>
 
@@ -45,13 +46,28 @@
 
     <div class="about-content">
       <h2 class="heading">About <span>Me</span></h2>
-      <h3>Data <span>Analyst</span></h3>
-      <p>My name is Gabryell Leal Rocha and ever since I started learning about technology and computers in 2019, Data Science have been my target area. My passion about it exists because I have always understood the importance of data management and how much data matters for the business development. Nowadays, society has grown over data analysis and so are the business that stack around it.<br>Studying about it, I developed skills such as business intelligence graphics creation, using a powerful tool known as Power BI (by Microsoft).<br> Thanks to my hard studying and months of dedication, I started working in a business-partnership with a local clothing brand (89 clothing), analysing their data and creating important graphics using KPIs that has helped the brand to develop and grow over its competitors! For that, I used mainly excel sheets to collect data and Power BI to format and analyze it.</p>
+      <p>My name is Gabryell Leal Rocha and ever since I started learning about technology and computers in 2019, Data Science have been my target area. My passion about it exists because I have always understood the importance of data management and how much data matters for the business development. Nowadays, society has grown over data analysis and so are the business that stack around it.
     </div>
-    <a href="#" class="btn-2">Experience</a>
+    <a href="#experience" class="btn-2">Experience</a>
+
   </section>
 
-  <section  class="contact-form">
+  <section id="experience" class="experience">
+
+    <a href="#education" class="btn-2">Education</a>
+    
+    <div class="experience-content">
+      <h2 class="heading"><span>Experience</span></h2>
+      <h3>Data<span>Analyst</span></h3>
+      <p>Learning about <span>Data</span> and how to analyze it, I developed skills such as business intelligence graphics creation, merging Excel sheets with a powerful tool named Power BI (by Microsoft).<br> Thanks to my hard studying and months of dedication, I started working in a business-partnership with a local clothing brand (89 clothing), analysing their data and creating important graphics using KPIs that has helped the brand to develop and grow over its competitors! For that, I used mainly excel sheets to collect data and Power BI to format and analyze it.</p>
+    </div>
+    <div class="experience-img">
+      <img src="./imagens/profile-pic.png">
+    </div>
+    
+  </section>
+
+  <section class="contact-form">
     <h2 id="contact" class="contact-me">Contact<span>Me</span></h2>
 
     <form action="#">

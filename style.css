@@ -1,32 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  list-style: none;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: aliceblue;
-  background-size: 100%;
-  overflow-x: hidden;
-}
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 35px 12%;
-  z-index: 100;
-  display: flex;
-  background-color: rgba(88, 88, 234, 0.967);
-  justify-content: space-between;
-  align-items: center;
-}
 .navbar {
   display: flex;
   align-items: center;
@@ -182,6 +154,36 @@ span {
 }
 .about-content p {
   color: azure;
+  font-size: 20px;
+  margin: 2em 0 3em;
+}
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  gap: 10em;
+  background-color: aliceblue;
+}
+
+.experience-img img {
+  position: relative;
+  width: 34.4 rem;
+  box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
+  border-radius: 50%;
+}
+
+.experience-content h2 {
+  text-align: left;
+  color: black;
+  font-size: 42px;
+}
+.experience-content h3 {
+  color: black;
+  font-size: 42px;
+}
+.experience-content p {
+  color: black;
   font-size: 20px;
   margin: 2em 0 3em;
 }
