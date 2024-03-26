@@ -1,4 +1,4 @@
-* {
+*{
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -27,24 +27,45 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
 .navbar img {
   width: 10rem;
   transition: 0.3s ease;
 }
+
 .navbar img:hover {
   transform: scale(1.1);
 }
+
 .navbar a {
   color: rgb(255, 255, 255);
   font-weight: 500;
   margin: 0 10px;
   font-size: 2rem;
-  transition: 0.1s ease;
+  transition: 0.3s ease;
 }
-.navbar a:hover {
-  color: white;
-  border-bottom: 3px solid white;
+
+.navbar a:not(:first-child)::after {
+  content: "";
+  display: block;
+  width: 0%;
+  background-color: rgb(99, 27, 255);
+  height: 3px;
+  transition: .6s;
 }
+
+.navbar a:not(:first-child):hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: rgb(99, 27, 255);
+  height: 3px;
+}
+
 
 .home {
   width: 100%;
@@ -85,7 +106,7 @@ span {
   color: black;
   border: 0.1rem solid transparent;
   border-color: black;
-  border-radius: 0.5 rem;
+  border-radius: 0.5rem;
   font-size: 1.1rem;
   letter-spacing: 1px;
   font-weight: 600;
@@ -95,7 +116,7 @@ span {
 .btn-1:hover {
   background-color: black;
   color: white;
-  border: 2px solid transparent;
+  border: 0.1rem solid transparent;
   transform: scale(1.1);
 }
 .btn-2 {
@@ -103,7 +124,7 @@ span {
   background-color: rgb(99, 27, 255);
   color: white;
   border: 0.1rem solid transparent;
-  border-radius: 0.5 rem;
+  border-radius: 0.5rem;
   font-size: 1.1rem;
   letter-spacing: 1px;
   font-weight: 600;
@@ -113,7 +134,7 @@ span {
 .btn-2:hover {
   background-color: white;
   color: rgb(99, 27, 255);
-  border: 2px solid transparent;
+  border: 0.1rem solid transparent;
   border-color: black;
   transform: scale(1.1);
 }
@@ -185,7 +206,7 @@ span {
 
 .contact-form form .input-box input,
 .contact-form form textarea {
-  width: 100%;
+  width: 85%;
   padding: 1.5em;
   font-size: 1.1rem;
   color: black;
@@ -221,10 +242,11 @@ span {
   margin: 0 0.5rem;
   transition: 0.2s ease;
 }
+
 .footer .social a:hover {
   transform: scale(1.2);
-  border: 2px solid transparent;
 }
+
 .footer .social img {
   background-color: white;
   border-radius: 50%;
@@ -243,9 +265,25 @@ span {
   border-bottom: 3px solid transparent;
   transition: 0.2s ease;
 }
-.footer ul li a:hover{
-  border-bottom: 3px solid rgb(99, 27, 255);
+.footer ul li a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  background-color: rgb(99, 27, 255)  ;
+  height: 3px;
+  transition: .6s;
 }
+
+.footer ul li a:hover::after  {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: rgb(99, 27, 255);
+  height: 3px;
+}
+/* .footer ul li a:hover{
+  border-bottom: 3px solid rgb(99, 27, 255);
+} */
 
 .footer ul li{
   display: inline-block;
@@ -258,5 +296,3 @@ span {
   font-size: 0.8rem;
   color: white;
 }
-
-
