@@ -166,11 +166,22 @@ span {
   background-color: aliceblue;
 }
 
+.icon-container{
+  display: inline;
+  justify-content: space-between; 
+}
+
+.icon-container img{
+  width: 10rem;
+  border-radius: 48%;
+  box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
+}
+
 .experience-img img {
   position: relative;
   width: 34.4 rem;
-  box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
-  border-radius: 50%;
+  box-shadow: 0 0 2rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
+  border-radius: 500%;
 }
 
 .experience-content h2 {
