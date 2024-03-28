@@ -2,16 +2,13 @@
   display: flex;
   align-items: center;
 }
-
 .navbar img {
   width: 10rem;
   transition: 0.3s ease;
 }
-
 .navbar img:hover {
   transform: scale(1.1);
 }
-
 .navbar a {
   color: rgb(255, 255, 255);
   font-weight: 500;
@@ -19,7 +16,6 @@
   font-size: 2rem;
   transition: 0.3s ease;
 }
-
 .navbar a:not(:first-child)::after {
   content: "";
   display: block;
@@ -28,7 +24,6 @@
   height: 3px;
   transition: 0.6s;
 }
-
 .navbar a:not(:first-child):hover::after {
   content: "";
   display: block;
@@ -45,7 +40,6 @@
   gap: 7em;
   padding: 30px 12% 0;
 }
-
 .home-content {
   width: 50rem;
 }
@@ -60,6 +54,7 @@
   font-size: 1.1rem;
   margin: 1.5rem 0 1.8rem;
 }
+
 span {
   color: blue;
 }
@@ -89,6 +84,7 @@ span {
   border: 0.1rem solid transparent;
   transform: scale(1.1);
 }
+
 .btn-2 {
   padding: 1rem 1.7rem;
   background-color: rgb(99, 27, 255);
@@ -133,14 +129,12 @@ span {
   gap: 10em;
   background-color: black;
 }
-
 .about-img img {
   position: relative;
-  width: 34.4 rem;
+  width: 22rem;
   box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
   border-radius: 50%;
 }
-
 .about-content h2 {
   text-align: left;
   color: azure;
@@ -155,6 +149,17 @@ span {
   font-size: 20px;
   margin: 2em 0 3em;
 }
+
+.icon-container {
+  display: flex;
+  gap: 5rem;
+}
+.icon-container img {
+  width: 10rem;
+  border-radius: 48%;
+  box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
+}
+
 .experience {
   display: flex;
   justify-content: center;
@@ -163,26 +168,12 @@ span {
   gap: 10em;
   background-color: aliceblue;
 }
-
-.icon-container {
-  display: flex;
-  gap: 5rem;
-}
-
-.icon-container img {
-  width: 10rem;
-  border-radius: 48%;
-  box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
-}
-
-
 .experience-img img {
   position: relative;
   width: 34.4 rem;
   box-shadow: 0 0 2rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
   border-radius: 500%;
 }
-
 .experience-content h2 {
   text-align: left;
   color: black;
@@ -196,6 +187,56 @@ span {
   color: black;
   font-size: 20px;
   margin: 2em 0 3em;
+}
+.experience-content p a {
+  color: blue;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  gap: 10em;
+  background-color: black;
+}
+.projects-img {
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+.projects-img img {
+  position: relative;
+  width: 10rem;
+  box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
+  border-radius: 50%;
+  background-color: azure;
+}
+.projects-content h2 {
+  text-align: left;
+  color: azure;
+  font-size: 42px;
+}
+.projects-content h3 {
+  color: azure;
+  font-size: 42px;
+}
+.projects-content p:first-child {
+  color: azure;
+  font-size: 20px;
+  margin: 2em 0 3em;
+}
+.projects-content p:not(:first-child) {
+  color: azure;
+  font-size: 20px;
+}
+.projects-content a {
+  color: rgb(99, 27, 255);
+}
+.projects iframe {
+  margin-top: 1rem;
+  border-radius: 3%;
+  background-color: azure;
 }
 
 .contact-form h2 {
@@ -215,7 +256,6 @@ span {
   justify-content: center;
   flex-wrap: wrap;
 }
-
 .contact-form form .input-box input,
 .contact-form form textarea {
   width: 85%;
@@ -235,13 +275,11 @@ span {
   padding: 2.5rem 0;
   background-color: rgb(0, 0, 0);
 }
-
 .footer .social {
   text-align: center;
   padding-bottom: 1.6rem;
   color: white;
 }
-
 .footer .social a {
   font-size: 24px;
   border: 24px solid transparent;
@@ -254,11 +292,9 @@ span {
   margin: 0 0.5rem;
   transition: 0.2s ease;
 }
-
 .footer .social a:hover {
   transform: scale(1.2);
 }
-
 .footer .social img {
   background-color: white;
   border-radius: 50%;
@@ -271,7 +307,6 @@ span {
   margin-bottom: 0;
   text-align: center;
 }
-
 .footer ul li a {
   color: white;
   border-bottom: 3px solid transparent;
@@ -285,7 +320,6 @@ span {
   height: 3px;
   transition: 0.6s;
 }
-
 .footer ul li a:hover::after {
   content: "";
   display: block;
@@ -293,15 +327,10 @@ span {
   background-color: rgb(99, 27, 255);
   height: 3px;
 }
-/* .footer ul li a:hover{
-  border-bottom: 3px solid rgb(99, 27, 255);
-} */
-
 .footer ul li {
   display: inline-block;
   padding: 0 1rem;
 }
-
 .footer .copyright {
   margin-top: 1rem;
   text-align: center;
