@@ -263,9 +263,11 @@ span {
   font-size: 1.1rem;
   color: black;
   background-color: aliceblue;
-  border-radius: 0.8rem;
   margin: 1rem 0;
-  resize: none;
+  transition: all 0.5s;
+}
+.contact-form input:focus{
+  border-radius: 1.1rem;
 }
 
 .footer {
