@@ -1,12 +1,13 @@
-@media (max-width: 400px){
-  *{
+@media (max-width: 450px) {
+  * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style: none;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
@@ -20,7 +21,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width:50%;
+    width: 100%;
     padding: 35px 0;
     z-index: 100;
     display: flex;
@@ -33,7 +34,7 @@
     align-items: center;
   }
   .navbar img {
-    width: 3rem;
+    width: 3.4rem;
     transition: 0.3s ease;
   }
   .navbar img:hover {
@@ -42,8 +43,8 @@
   .navbar a {
     color: rgb(255, 255, 255);
     font-weight: 500;
-    margin: 0 5px;
-    font-size: 0.7rem;
+    margin: 0 15px;
+    font-size: 0.9rem;
     transition: 0.3s ease;
   }
   .navbar a:not(:first-child)::after {
@@ -63,50 +64,52 @@
   }
   .home {
     width: 100%;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    gap: 2em;
-    padding: 90px 5% 0;
+    align-items: center;
+    gap: 2.6em;
+    padding: 120px 5% 0;
   }
   .home-content {
-    width: 290px;
+    width: 390px;
   }
   .home-content h3 {
-    font-size: 1.3rem;
+    font-size: 2rem;
   }
   .home-content h1 {
-    font-size: 1.1rem;
+    font-size: 1.7rem;
     line-height: 1.1;
   }
-  .home-content p{
-    font-size: 0.8rem;
-    margin: 1rem 0 1.2rem;
+  .home-content p {
+    font-size: 1rem;
+    margin: 4rem 0 4rem;
   }
+
   .img-box img {
     border-radius: 50%;
-    width: 200px;
+    width: 300px;
   }
-  
-  
+
   span {
     color: blue;
   }
-  
+
   .btn-box {
-    width: auto;
+    width: 100%;
+    height: 2rem;
     display: flex;
+    justify-content: center;
     gap: 1.3em;
   }
   .btn-1 {
-    padding: 1rem 1.1rem;
+    padding: 0.55rem 0.8rem;
     background-color: white;
     color: black;
     border: 0.1rem solid transparent;
     border-color: black;
     border-radius: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 0.55rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.1s ease;
@@ -117,15 +120,15 @@
     color: white;
     border: 0.1rem solid transparent;
     transform: scale(1.1);
-  } 
-   
+  }
+
   .btn-2 {
-    padding: 1rem 1.7rem;
+    padding: 0.55rem 0.8rem;
     background-color: rgb(99, 27, 255);
     color: white;
     border: 0.1rem solid transparent;
     border-radius: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 0.55rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: 0.1s ease;
@@ -149,133 +152,115 @@
     background-color: black;
     width: 3.2rem;
   }
-  
+
   .about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12% 8%;
-    gap: 10em;
+    padding: 12% 5%;
+    gap: 7em;
     background-color: black;
   }
   .about-img img {
     position: relative;
-    width: 22rem;
+    width: 15rem;
     box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
     border-radius: 50%;
   }
   .about-content h2 {
     text-align: left;
     color: azure;
-    font-size: 42px;
-  }
-  .about-content h3 {
-    color: azure;
-    font-size: 42px;
+    font-size: 2rem;
   }
   .about-content p {
     color: azure;
-    font-size: 20px;
+    font-size: 1rem;
     margin: 2em 0 3em;
   }
-  
-  .icon-container {
-    display: flex;
-    gap: 5rem;
-  }
-  .icon-container img {
-    width: 10rem;
-    border-radius: 48%;
-    box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
-  }
-  
+
   .experience {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 12% 8%;
-    gap: 10em;
+    gap: 3em;
     background-color: aliceblue;
   }
   .experience-img img {
     position: relative;
-    width: 34.4 rem;
+    width: 15rem;
     box-shadow: 0 0 2rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
     border-radius: 500%;
   }
   .experience-content h2 {
     text-align: left;
     color: black;
-    font-size: 42px;
+    font-size: 2rem;
   }
   .experience-content h3 {
     color: black;
-    font-size: 42px;
+    font-size: 2rem;
   }
   .experience-content p {
     color: black;
-    font-size: 20px;
+    font-size: 1rem;
     margin: 2em 0 3em;
   }
   .experience-content p a {
     color: blue;
   }
-  
+  .icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+  }
+  .icon-container img {
+    width: 6rem;
+    border-radius: 48%;
+    box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
+  }
   .projects {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 12% 8%;
-    gap: 10em;
+    gap: 8em;
     background-color: black;
   }
   .projects-img {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 3.5rem;
   }
   .projects-img img {
     position: relative;
-    width: 10rem;
+    width: 5rem;
     box-shadow: 0 0 1.5rem rgb(99, 27, 255), 00 00 3.1rem rgb(99, 27, 255);
     border-radius: 50%;
     background-color: azure;
   }
-  .projects-content h2 {
-    text-align: left;
-    color: azure;
-    font-size: 42px;
-  }
-  .projects-content h3 {
-    color: azure;
-    font-size: 42px;
-  }
-  .projects-content p:first-child {
-    color: azure;
-    font-size: 20px;
-    margin: 2em 0 3em;
-  }
-  .projects-content p:not(:first-child) {
-    color: azure;
-    font-size: 20px;
-  }
   .projects-content a {
     color: rgb(99, 27, 255);
   }
-  .projects iframe {
+  .projects-content iframe {
+    width: 380px;
+    height: 290px;
     margin-top: 1rem;
     border-radius: 3%;
     background-color: azure;
   }
-  
+
   .contact-form h2 {
     text-align: center;
     margin-top: 3em;
     margin-bottom: 1em;
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .contact-form form {
-    max-width: 50em;
+    max-width: 18em;
     margin: 1em auto;
     text-align: center;
     margin-bottom: 3em;
@@ -289,16 +274,16 @@
   .contact-form form textarea {
     width: 85%;
     padding: 1.5em;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     color: black;
     background-color: aliceblue;
     margin: 1rem 0;
     transition: all 0.5s;
   }
-  .contact-form input:focus{
+  .contact-form input:focus {
     border-radius: 1.1rem;
   }
-  
+
   .footer {
     position: relative;
     bottom: 0;
@@ -330,6 +315,7 @@
     background-color: white;
     border-radius: 50%;
   }
+
   .footer ul {
     margin-top: 0;
     padding: 0;
