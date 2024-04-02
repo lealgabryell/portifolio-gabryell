@@ -42,9 +42,9 @@
   }
   .navbar a {
     color: rgb(255, 255, 255);
-    font-weight: 500;
+    font-weight: 400;
     margin: 0 15px;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     transition: 0.3s ease;
   }
   .navbar a:not(:first-child)::after {
@@ -82,8 +82,9 @@
     line-height: 1.1;
   }
   .home-content p {
+    text-align: justify;
     font-size: 1rem;
-    margin: 4rem 0 4rem;
+    margin-right: 2rem;
   }
 
   .img-box img {
@@ -170,14 +171,17 @@
     border-radius: 50%;
   }
   .about-content h2 {
-    text-align: left;
+    text-align: center;
     color: azure;
     font-size: 2rem;
   }
   .about-content p {
+    text-align: justify;
+    align-content: baseline;
     color: azure;
     font-size: 1rem;
-    margin: 2em 0 3em;
+    margin-left: 1.1em;
+    margin-right: 3em;
   }
 
   .experience {
@@ -206,6 +210,7 @@
     font-size: 2rem;
   }
   .experience-content p {
+    text-align: justify;
     color: black;
     font-size: 1rem;
     margin: 2em 0 3em;
@@ -296,7 +301,7 @@
     flex-direction: column;
     bottom: 0;
     width: 100%;
-    padding: 2.5rem 3rem;
+    padding: 2.5rem 22.5px;
     background-color: rgb(0, 0, 0);
   }
   .footer .social {
