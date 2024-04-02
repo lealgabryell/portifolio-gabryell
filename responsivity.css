@@ -15,7 +15,7 @@
     background-color: aliceblue;
     background-size: auto;
     overflow-x: hidden;
-    width: auto;
+    width: 100%;
   }
   header {
     position: fixed;
@@ -159,9 +159,9 @@
     justify-content: center;
     align-items: center;
     padding: 12% 5%;
-    gap: 7em;
+    gap: 8em;
     background-color: black;
-    width: 100%;
+    width: 450px;
   }
   .about-img img {
     position: relative;
@@ -188,7 +188,7 @@
     padding: 12% 8%;
     gap: 3em;
     background-color: aliceblue;
-    width: 100%;
+    width: 450;
   }
   .experience-img img {
     position: relative;
@@ -228,15 +228,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 12% 8%;
+    padding: 12% 22.5px;
     gap: 8em;
     background-color: black;
-    width: 100%;
+    width: 450px;
   }
   .projects-img {
     display: flex;
     flex-direction: row;
-    gap: 3.5rem;
+    gap: 2rem;
   }
   .projects-img img {
     position: relative;
@@ -245,12 +245,13 @@
     border-radius: 50%;
     background-color: azure;
   }
+
   .projects-content a {
     color: rgb(99, 27, 255);
   }
   .projects-content iframe {
     width: 380px;
-    height: 290px;
+    height: 230px;
     margin-top: 1rem;
     border-radius: 3%;
     background-color: azure;
