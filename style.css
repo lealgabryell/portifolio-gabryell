@@ -55,6 +55,12 @@
   font-size: 1.1rem;
   margin: 1.5rem 0 1.8rem;
 }
+.img-box img {
+  border-radius: 50%;
+  width: 550px;
+}
+
+ 
 
 span {
   color: blue;
@@ -108,10 +114,7 @@ span {
   transform: scale(1.1);
 }
 
-.img-box img {
-  border-radius: 50%;
-  width: 550px;
-}
+
 
 ::-webkit-scrollbar {
   width: 1rem;
@@ -196,6 +199,7 @@ span {
 .experience-content p a {
   color: blue;
 }
+
 
 .projects {
   display: flex;
@@ -343,4 +347,44 @@ span {
   text-align: center;
   font-size: 0.8rem;
   color: white;
+}
+
+@media(max-width: 1200px){
+  .home {
+    width: 80%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 3em;
+    padding: 20px;
+  }
+  .home-content {
+    width: 40rem;
+  }
+  .home-content p {
+    text-align: justify;
+    font-size: 0.9rem;
+    margin: 1.5rem 0 1.8rem;
+  }
+  .img-box img {
+    border-radius: 50%;
+    width: 300px;
+  }
+  .img-box{
+    width: 100%;
+  }
+
+  .experience-img img{
+    width: 300px;
+  }
+  .projects {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+  }
+  .projects-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
