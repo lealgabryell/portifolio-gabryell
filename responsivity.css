@@ -1,4 +1,4 @@
-@media (max-width: 450px) {
+@media (max-width: 451px) {
   * {
     margin: 0;
     padding: 0;
@@ -186,7 +186,7 @@
 
   .experience {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     padding: 12% 8%;
