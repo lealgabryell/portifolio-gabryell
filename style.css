@@ -51,6 +51,7 @@
   line-height: 1.1;
 }
 .home-content p {
+  text-align: justify;
   font-size: 1.1rem;
   margin: 1.5rem 0 1.8rem;
 }
@@ -147,6 +148,7 @@ span {
   font-size: 42px;
 }
 .about-content p {
+  text-align: justify;
   color: azure;
   font-size: 20px;
   margin: 2em 0 3em;
@@ -186,6 +188,7 @@ span {
   font-size: 42px;
 }
 .experience-content p {
+  text-align: justify;
   color: black;
   font-size: 20px;
   margin: 2em 0 3em;
