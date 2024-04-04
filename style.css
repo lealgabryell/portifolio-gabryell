@@ -350,6 +350,9 @@ span {
 }
 
 @media(max-width: 1200px){
+  .navbar a{
+    font-size: 25px;
+  }
   .home {
     width: 80%;
     min-height: 100vh;
@@ -374,6 +377,10 @@ span {
   .img-box{
     width: 100%;
   }
+  .about{    
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 1rem;}
 
   .experience-img img{
     width: 300px;

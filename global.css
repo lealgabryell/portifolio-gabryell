@@ -26,11 +26,11 @@ header {
   display: flex;
   background-color: rgba(88, 88, 234, 0.967);
   align-items: center;
+  justify-content: space-between;
 }
 @media(max-width: 1200px){
   header{
     margin: 0 auto;
-    max-width: 1200px;
-    padding-right: 15px;
+    max-width:100%;
   }
 }

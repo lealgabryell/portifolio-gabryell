@@ -1,34 +1,4 @@
 @media (max-width: 451px) {
-  * {
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-      sans-serif;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
-  body {
-    background-color: aliceblue;
-    background-size: auto;
-    overflow-x: hidden;
-    width: 100%;
-  }
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 35px 0;
-    z-index: 100;
-    display: flex;
-    background-color: rgba(88, 88, 234, 0.967);
-    justify-content: space-between;
-    align-items: center;
-  }
   .navbar {
     display: flex;
     align-items: center;
